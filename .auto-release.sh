@@ -15,7 +15,7 @@ if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
     md5 "grin-$tagname-$TRAVIS_JOB_ID-osx.tgz" > "grin-$tagname-$TRAVIS_JOB_ID-osx.tgz"-md5sum.txt
     /bin/ls -ls *-md5sum.txt  | awk '{print $6,$7,$8,$9,$10}'
     cd - > /dev/null;
-    echo "tarball generated\n"
+    echo "hello this is abhishek ha ha ha...\n"
 
     # Only generate changelog on Linux platform, to avoid duplication
     exit 0
